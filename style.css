@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient( to right,crimson 50%,#0fe 50%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 90vw;
+    height: 90vh;
+    background-color: #000;
+    border-radius: 40px;
+    border: 7px solid white;
+    overflow: hidden;
+    box-shadow: 0 0 50px black;
+}
+.navber{
+    width: 90vw;
+    height: 20vh;
+    background-color:crimson;
+    /* border: 2px solid black; */      
+    /* border-radius: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.image img{
+    width: 130px;
+    height: 130px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.link a{
+    margin: 0px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition:1s;
+}
+.link a:hover{
+    /* border: 3px solid #fff; */
+    color: #000;
+    margin: 10px 5px;
+}
+.center{
+    width: 90vw;
+    height: 70vh;
+    /* background-color: #0fe; */
+    overflow: hidden;
+    display: flex;
+}
+.left{
+    width: 50vw;
+    height: 100vh;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 700px;
+    background:url(go.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 7px solid crimson;
+    border-radius: 900px;
+    cursor: pointer;
+}
+.right{
+    width: 50vw;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%,-40%);
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+.heading h1 span{
+    color: crimson;
+}
+.heading p{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .6;
+    color: #fff;
+    margin:5px;
+}
+button{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: crimson;
+    transition: 1s;
+}
+button:hover{
+    background-color: #fff;
+    color: crimson;
+}
+/* part1 start */
+.part1{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient( to right,crimson 50%,#0fe 50%);
+    /* border: 7px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herro{
+    height: 90vh;
+    width: 90vw;
+    background-color: black;
+    border-radius: 40px;
+    border: 7px solid white;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+    display: flex;
+}
+.hleft{
+    width: 40vw;
+    height: 90vh;
+    background:url(image.jpg.png);
+    background-size: cover;
+    background-position: center;
+}
+.hnavber{
+    width: 40vw;
+    height: 10vh;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hicon{
+    font-size: 30px;
+    font-weight: 600;
+    transition: 2s;
+}
+.hicon i:hover{
+   color: crimson;
+}
+.hicon i{
+    color: #fff;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.hright{
+    width: 50vw;
+    height: 100vh;
+    background-color: crimson;
+    position: relative;
+}
+.htext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.htext h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+}
+.line{
+    border-bottom: 2px solid white;
+    
+}
+.htext p{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .6;
+    padding: 10px;
+}
+.htext button{
+    border: 2px solid black;
+}
+.htext button:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* part2 start */
+.part2{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient( to right,crimson 50%,#0fe 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zero{
+    width: 90vw;
+    height: 90vh;
+    background:linear-gradient( to right,crimson 50%,#0fe 50%);
+    border-radius: 40px;
+    border: 7px solid white;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card1{
+    width: 310px;
+    height: 400px;
+    overflow: hidden;
+    /* background-color: white; */
+    border-radius: 40px;
+    border: 5px solid white;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    transition: 2s;
+    cursor: pointer;
+}
+.card1:hover{
+    transform: translateY(-10px);
+}
+.card1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin-top: 20px;
+    border: 5px solid crimson;
+}
+.card1 h2{
+    font-size: 50px;
+    margin: 10px;
+    color: crimson;
+}
+.card1 h2 span{
+    color: #000;
+}
+.card1 button{
+    width: 200px;
+    border-radius: 30px;
+    border: 2px solid black;
+    background:linear-gradient( to right,crimson 50%,#0fe 50%);
+}
+.card1 button span{
+    color: #000;
+}
+.part3{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient( to right,crimson 50%,#0fe 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.class1{
+    width: 90vw;
+    height: 90vh;
+   background-size: cover;
+   background-position: center;
+   border-radius: 40px;
+    border: 7px solid white;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+   
+}
+.ctop{
+    width: 100vw;
+    height: 80vh;
+    background:url(barger.png.png);
+    background-size: cover;
+    background-position: center;
+    background-color: crimson;
+    position: relative;
+}
+.cbottom{
+    width: 100vw;
+    height: 20vh;
+    background-color: #000;
+}
+.cheading{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-30%,-30%);
+}
+.cheading a{
+    text-decoration: none;
+}
+.cheading h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.cheading p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    opacity: .6;
+}
+.cbottom{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.cbottom i{
+    margin: 0px 20px;
+}
+.cbottom i:hover{
+    color: crimson;
+}
+@media (width:500px) {
+   .center{
+       flex-direction: column;
+   } 
+   .left{
+       width: 100%;
+       display: block;
+       justify-content: center;
+       position: relative;
+   }
+   .right{
+       display: block;
+       align-items: center;
+       justify-content: center;
+      text-align: center;
+   }
+}
